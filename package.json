@@ -1,0 +1,29 @@
+{
+  "name": "elegant-agency-portfolio",
+  "version": "1.0.0",
+  "description": "Porfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shagor-coder/elegant-agency-portfolio.git"
+  },
+  "author": "shagor-coder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shagor-coder/elegant-agency-portfolio/issues"
+  },
+  "homepage": "https://github.com/shagor-coder/elegant-agency-portfolio#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "cssnano": "^5.0.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.2.15"
+  }
+}

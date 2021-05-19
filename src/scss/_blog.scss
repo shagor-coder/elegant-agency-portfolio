@@ -1,0 +1,36 @@
+.blog{
+    &__title{
+        @include font600;
+        color: $DarkOrange;
+    }
+    &__subtitle{
+        @include font700;
+        color: $DarkBlue;
+    }
+
+    &__img{
+        .img-fluid{
+            max-width: 100%;
+            min-height: 100%;
+        }
+    }
+
+    &__content{
+        padding: 1rem;
+
+        &__sm{
+            @include font500;
+            color: $DarkBlue;
+        }
+
+        &__title{
+            @include font600;
+            color: $DarkBlue;
+        }
+
+        &__des{
+            @include font500;
+            color: $DarkBlue;
+        }
+    }
+}

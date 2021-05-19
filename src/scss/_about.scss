@@ -1,0 +1,13 @@
+.about-us{
+    &__title{
+        @include font600;
+        color: $DarkOrange;
+    }
+    &__subtitle{
+        @include font700;
+        color: $DarkBlue;
+    }
+    &__des{
+        @include font500
+    }
+}

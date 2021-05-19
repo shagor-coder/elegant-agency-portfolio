@@ -1,0 +1,25 @@
+
+// Custom Font Sizing
+
+@mixin font500 {    
+    font-size: 0.8725rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+}
+
+@mixin font600 {
+    font-size: 1.275rem;
+    font-weight: 400;
+    color: $DarkOrange;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+@mixin font700 {
+    font-size: 2.275rem;
+    font-weight: 400;
+    color: $DarkBlue;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}

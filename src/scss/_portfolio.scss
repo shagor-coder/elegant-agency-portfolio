@@ -1,0 +1,17 @@
+.portfolio{
+    
+    .container{
+        padding: 0 1rem;
+    }
+    &__title{
+        @include font600;
+        color: $DarkOrange;
+    }
+    &__subtitle{
+        @include font700;
+        color: $DarkBlue;
+    }
+    &__content{
+        padding: 0.25rem;
+    }
+}

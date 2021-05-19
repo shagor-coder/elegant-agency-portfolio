@@ -1,0 +1,10 @@
+.footer{
+    justify-content: space-between;
+    background: $DarkGreyF;
+
+    &__text{
+        @include font600;
+        color: $DarkBlue;
+        margin-bottom: 0;
+    }
+}

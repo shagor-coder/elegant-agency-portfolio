@@ -1,0 +1,21 @@
+.hero{
+    min-height: 100vh;
+    background: url(../src/img/bg.jpg), $SkyBlue;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+
+    &__title{
+        @include font700;
+        color: $White;
+    }
+
+    &__cta{
+        color: $White;
+        border: 1px solid $White;
+        outline: 1px solid $White;
+    }
+}

@@ -1,0 +1,40 @@
+.main-header{
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+    .navbar-brand{
+        h1{
+            @include font700;
+            color: $White;
+            font-weight: 700;
+
+            span{
+                color: $DarkOrange;
+            }
+        }
+    }
+
+    .navbar-toggler{
+        border: 1px solid $White;
+        color: $White
+    }
+    .nav-link{
+        @include font500;
+        font-weight: 500;
+        color: $White;
+        padding: 0.3rem 1rem;
+        border-radius: 0.425rem;
+
+        &:hover{
+            background: $DarkOrange;
+        }
+    }
+
+    &.active{
+        background: $DarkBlue;
+    }
+}

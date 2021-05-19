@@ -1,0 +1,23 @@
+.contact{
+    &__title{
+        @include font600;
+        color: $DarkOrange;
+    }
+    &__subtitle{
+        @include font700;
+        color: $DarkBlue;
+    }
+
+    .lead{
+        @include font600;
+        color: $DarkBlue;
+
+        a{
+            color: $DarkBlue;
+            
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

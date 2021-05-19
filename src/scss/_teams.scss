@@ -1,0 +1,37 @@
+.teams{
+    &__title{
+        @include font600;
+        color: $DarkOrange;
+    }
+    &__subtitle{
+        @include font700;
+        color: $DarkBlue;
+    }
+    &__des{
+        @include font500
+    }
+
+    &__title1{
+        @include font500;
+        color: $DarkOrange;
+    }
+    &__subtitle1{
+        @include font600;
+        color: $DarkBlue;
+    }
+    &__des1{
+        @include font500
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+
+    .card{
+        box-shadow: 0 0 5px $DarkGrey;
+        .card-img{
+            border-radius: 0;
+        }
+    }
+}

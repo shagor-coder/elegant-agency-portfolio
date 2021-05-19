@@ -1,0 +1,2 @@
+const mainHeader=document.querySelector(".main-header"),toggler=document.querySelector(".navbar-toggler").addEventListener("click",(()=>{mainHeader.classList.add("active")})),collapse=document.querySelector(".navbar-collapse"),navMenu=document.querySelectorAll(".nav-link").forEach((function(e){e.addEventListener("click",(()=>{collapse.classList.remove("show")}))}));window.addEventListener("scroll",(()=>{mainHeader.classList.toggle("active",scrollY>50)}));
+//# sourceMappingURL=script.js.map
